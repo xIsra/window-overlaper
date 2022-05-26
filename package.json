@@ -1,0 +1,28 @@
+{
+  "name": "chrome-extension-skeleton",
+  "version": "1.0.1",
+  "description": "Chrome Extension Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemenendez/chrome-extension-skeleton.git"
+  },
+  "keywords": [
+    "google",
+    "chrome",
+    "extension",
+    "skeleton"
+  ],
+  "author": "leo <leonidasmenendez@gmail.com> (https://www.code57.com/chrome-extension-skeleton)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemenendez/chrome-extension-skeleton/issues"
+  },
+  "homepage": "https://www.code57.com/chrome-extension-skeleton",
+  "dependencies": {
+    "@types/chrome": "0.0.186"
+  }
+}

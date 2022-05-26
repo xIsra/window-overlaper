@@ -1,0 +1,36 @@
+{
+  "name": "Window Overlap",
+  "version": "1.0",
+  "description": "Overlap any site onto the current window.",
+  "manifest_version": 3,
+  "browser_action": {
+    "default_icon": "images/default.png",
+    "default_popup": "popup.html",
+    "default_title": "Google Chrome Extension Skeleton"
+  },
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "js/content_script.js"
+      ],
+      "matches": [
+        "https://**/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "js/script.js"
+      ],
+      "matches": [
+        "https://**/*"
+      ]
+    }
+  ]
+}
